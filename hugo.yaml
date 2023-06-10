@@ -1,5 +1,4 @@
-baseURL: "http://localhost:1313"
-# 'https://terrifictable.xyz/'
+baseURL: "https://terrifictable.xyz"
 languageCode: 'en-us'
 title: 'terrifictable.xyz'
 theme: "PaperMod"
