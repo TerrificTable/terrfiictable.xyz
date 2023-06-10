@@ -1,0 +1,79 @@
+baseURL: "http://localhost:1313"
+# 'https://terrifictable.xyz/'
+languageCode: 'en-us'
+title: 'terrifictable.xyz'
+theme: "PaperMod"
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: TerrificTable
+  description: ""
+  keywords: [Blog]
+  author: "TerrificTable"
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: TerrificTable
+    subtitle: ""
+    imageUrl: "https://avatars.githubusercontent.com/u/85793326"
+    imageTitle: pfp
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/TerrificTable"
+
+menu:
+  main:
+    - identifier: blog
+      name: Blog
+      url: /posts/
+      weight: 25
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 25
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 25
+
+pygments: true
+pygmentsUseClasses: false
+pygmentsCodefences: true
+pygmentsStyle: "dracula"
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: dracula
