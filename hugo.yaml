@@ -50,6 +50,12 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/TerrificTable"
+    - name: keybase
+      url: "https://keybase.io/terrifictable55"
+    - name: email
+      url: "mailto:terrifictable@terrifictable.xyz"
+    - name: rss
+      url: "/index.xml"
 
 menu:
   main:
