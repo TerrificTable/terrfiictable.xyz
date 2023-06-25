@@ -54,6 +54,8 @@ params:
       url: "https://keybase.io/terrifictable55"
     - name: email
       url: "mailto:terrifictable@terrifictable.xyz"
+    - name: ctftime
+      url: "https://ctftime.org/team/235815"
     - name: rss
       url: "/index.xml"
 
